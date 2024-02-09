@@ -1,0 +1,3 @@
+[submodule "lib/monomer"]
+	path = lib/monomer
+	url = git@github.com:satosystems/monomer.git

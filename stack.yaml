@@ -30,6 +30,7 @@ resolver: lts-20.10
 #   - wai
 packages:
   - .
+  - lib/monomer
 
 # Dependency packages to be pulled from upstream that are not in the resolver.
 # These entries can reference officially published versions as well as
@@ -41,7 +42,6 @@ packages:
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 extra-deps:
   - nanovg-0.8.1.0
-  - monomer-1.5.1.0
 #- git: https://github.com/fjvallarino/monomer
 #  commit: cb17cb553c76eea97718ff3953e516868c2b7087
 
